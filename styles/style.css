@@ -174,6 +174,47 @@ main {
     cursor: pointer;
 }
 
+.why-choose-us-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.why-choose-us-section h1{
+    color: #131318;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.why-choose-us-section p{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+
+.why-choose-us-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.why-choose-us-card1, .why-choose-us-card3{
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.why-choose-us-card2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.why-choose-us-card3{
+    grid-column: span 2;
+}
 /* Responsiveness starts */
 
 /* For mobile devices */
@@ -212,6 +253,16 @@ main {
 
     .popular-tour-description{
         padding: 20px;
+    }
+
+    
+    .why-choose-us-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .why-choose-us-card3{
+        grid-column: span 1;
     }
 }
 
