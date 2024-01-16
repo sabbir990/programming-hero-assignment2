@@ -215,6 +215,106 @@ main {
 .why-choose-us-card3{
     grid-column: span 2;
 }
+
+.deals-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.deals-section > h1{
+    color: #131318;
+    font-weight: 800;
+}
+
+.deals-section > P{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.plans-section{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.plan1{
+    background: url('../Images/Group\ 39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 56px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+}
+
+.plan-child1{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 52px;
+    border-radius: 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.time-section{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.time-section div{
+    display: flex;
+    gap: 12px;
+}
+
+.time-section div i{
+    color: #FF5400;
+}
+
+.time-section div p{
+    color: #424247;
+}
+
+.plan-child1 h3{
+    color: #131318;
+    font-size: 1.5rem;
+}
+
+.plan-child1 p{
+    color: #424247;
+    font-weight: 400;
+}
+
+.plan-child1 h4{
+    font-size: 1.5rem;
+    color: #FF5400;
+}
+
+.booking-button{
+    font-size: 1.25rem;
+    padding: 15px 25px;
+    border-radius: 8px;
+    width: 9.50rem;
+    cursor: pointer;
+    border: none;
+    background-color: #FF5400;
+    color: white;
+}
+
+.second{
+    background: url('../Images/Group\ 40.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
 /* Responsiveness starts */
 
 /* For mobile devices */
@@ -260,9 +360,20 @@ main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .why-choose-us-card3{
         grid-column: span 1;
+    }
+
+    .plan1{
+        padding: 200px 16px 16px 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plan-child1{
+        padding: 16px;
+        width: 100%;
     }
 }
 
